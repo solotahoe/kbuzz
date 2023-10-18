@@ -1,0 +1,6 @@
+business_id,email,plan_id,plan_name,plan_price,payment_platform_name
+a3189382-4745-4d50-b122-df9ab68cc308,businesid1@gmail.com,eb6e20eeP,Platinum,100,Stripe
+0b9092cb-3a13-45a3-b32b-002cbae2a2f8,businesid2@gmail.com,8b257cdaG,Gold,70,'Paypal'
+fc5a6006-a2cc-4383-84bc-ede8bc1f2bd3,businesid3@gmail.com,1d41fa7eS,silver,50,Stripe
+1f72b6ba-b5c1-4763-b204-bec4d570bd78,businesid4@gmail.com,de261f75B,Bronze,30,Paypal
+5cba97f2-44a9-4dc6-9823-90fe52628bd1,businesid5@gmail.com,78209086F,Freemium,0,Stripe

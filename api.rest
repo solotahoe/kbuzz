@@ -1,0 +1,37 @@
+
+//get a summary of all subscription  api
+GET http://localhost:5000/sub/all
+
+
+###
+//add plan to db route
+POST http://localhost:5000/plan/add
+###
+
+POST http://localhost:5000/sub/add
+
+
+//===============routes to add subscroptions start========================
+
+### 
+# POST http://localhost:5000/sub/add/platinum
+
+###
+
+# POST http://localhost:5000/sub/add/gold
+
+###
+# POST http://localhost:5000/sub/add/silver
+
+###
+# POST http://localhost:5000/sub/add/bronze
+
+
+###
+# POST http://localhost:5000/sub/add/fremuim
+
+//===============routes to add subscroptions end========================
+
+// ================= filter data and extract csv file generation starts here===================;
+
+GET http://localhost:5000/csv/generate?price=50
