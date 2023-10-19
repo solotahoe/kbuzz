@@ -39,6 +39,11 @@ app.use('/plan', planRoutes)
 app.use('/sub', subRoutes)
 app.use('/csv', csvRoutes)
 
+// this route for the api.test.js file
+app.get('/test/route', (req, res) => {
+  res.status(200).send({ msg: 'api responding as expected' })
+})
+
 // get the port number from the .env file as a security precaution
 const Port = process.env.PORT
 
@@ -52,3 +57,5 @@ app.on('error', (err) => {
 app.listen(Port, () => {
   console.log(`Server is running on http://localhost:${Port}`)
 })
+
+module.exports = app
