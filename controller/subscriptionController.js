@@ -4,7 +4,6 @@ const subModel = require('../model/subscriptonSchema')
 const platinumsubscriptions = require('../dataSource/platinum')
 const goldsubscriptions = require('../dataSource/gold')
 const { v4: uuidv4 } = require('uuid')
-//  console.log(subscriptions);
 const getTotalRecords = async (req, res) => {
   try {
     // eslint-disable-next-line camelcase
@@ -67,7 +66,6 @@ const addPlatinumSubscription = async (req, res) => {
 
 const addGoldSubscription = async (req, res) => {
   try {
-    console.log('goldubscriptions')
     const gold_id = '8b257cdaG'
     // function to generate unique ids using idv4;
     const UniqueId = () => {
@@ -102,8 +100,6 @@ const addGoldSubscription = async (req, res) => {
 
 const addSilverSubscription = async (req, res) => {
   try {
-    console.log('silversubscriptions')
-
     const silver_id = '1d41fa7eS'
     // function to generate unique ids using idv4;
     const UniqueId = () => {
@@ -137,7 +133,6 @@ const addSilverSubscription = async (req, res) => {
 
 const addBronzeSubscription = async (req, res) => {
   try {
-    console.log('bronzesubscriptions')
     const bronze_id = 'de261f75B'
     // function to generate unique ids using idv4;
     const UniqueId = () => {
