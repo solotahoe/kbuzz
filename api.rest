@@ -14,21 +14,21 @@ POST http://localhost:5000/sub/add
 //===============routes to add subscroptions start========================
 
 ### 
-# POST http://localhost:5000/sub/add/platinum
+POST http://localhost:5000/sub/add/platinum
 
 ###
 
-# POST http://localhost:5000/sub/add/gold
+POST http://localhost:5000/sub/add/gold
 
 ###
-# POST http://localhost:5000/sub/add/silver
+POST http://localhost:5000/sub/add/silver
 
 ###
-# POST http://localhost:5000/sub/add/bronze
+POST http://localhost:5000/sub/add/bronze
 
 
 ###
-# POST http://localhost:5000/sub/add/fremuim
+POST http://localhost:5000/sub/add/fremuim
 
 //===============routes to add subscroptions end========================
 

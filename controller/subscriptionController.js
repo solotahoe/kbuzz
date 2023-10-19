@@ -43,7 +43,7 @@ const addPlatinumSubscription = async (req, res) => {
     const randomSubscriptionData = platinumsubscriptions[Math.floor(Math.random() * platinumsubscriptions.length)]
 
     // insert all 5000 records here start
-    for (let i = 0; i < 1635; i++) {
+    for (let i = 0; i < 5000; i++) {
       const newSubscription = new subModel({
         business_id: UniqueId(),
         email: randomSubscriptionData.email,
@@ -78,7 +78,7 @@ const addGoldSubscription = async (req, res) => {
     const randomSubscriptionData = goldsubscriptions[Math.floor(Math.random() * platinumsubscriptions.length)]
 
     // insert all 5000 records here start
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 8000; i++) {
       const newSubscription = new subModel({
         business_id: UniqueId(),
         email: randomSubscriptionData.email,
@@ -114,7 +114,7 @@ const addSilverSubscription = async (req, res) => {
     const randomSubscriptionData = goldsubscriptions[Math.floor(Math.random() * platinumsubscriptions.length)]
 
     // insert all 5000 records here start
-    for (let i = 0; i < 10800; i++) {
+    for (let i = 0; i < 12000; i++) {
       const newSubscription = new subModel({
         business_id: UniqueId(),
         email: randomSubscriptionData.email,
@@ -148,7 +148,7 @@ const addBronzeSubscription = async (req, res) => {
     const randomSubscriptionData = goldsubscriptions[Math.floor(Math.random() * platinumsubscriptions.length)]
 
     // insert all 5000 records here start
-    for (let i = 0; i < 400; i++) {
+    for (let i = 0; i < 7000; i++) {
       const newSubscription = new subModel({
         business_id: UniqueId(),
         email: randomSubscriptionData.email,
@@ -182,7 +182,7 @@ const addFremiuimSubscription = async (req, res) => {
     const randomSubscriptionData = goldsubscriptions[Math.floor(Math.random() * platinumsubscriptions.length)]
 
     // insert all 5000 records here start
-    for (let i = 0; i < 400; i++) {
+    for (let i = 0; i < 500; i++) {
       const newSubscription = new subModel({
         business_id: UniqueId(),
         email: randomSubscriptionData.email,
