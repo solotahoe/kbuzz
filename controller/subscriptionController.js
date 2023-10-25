@@ -41,6 +41,11 @@ const addPlatinumSubscription = async (req, res) => {
 
     const randomSubscriptionData = platinumsubscriptions[Math.floor(Math.random() * platinumsubscriptions.length)]
 
+    // console.log('math.randiom is', Math.floor(Math.random()))
+    // console.log(platinumsubscriptions.length)
+    // console.log('zero by 5 is', 0 * 5)
+    // console.log(Math.floor(Math.random() * platinumsubscriptions.length))
+    // console.log(randomSubscriptionData)
     // insert all 5000 records here start
     for (let i = 0; i < 5000; i++) {
       const newSubscription = new subModel({
